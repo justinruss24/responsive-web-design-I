@@ -67,7 +67,7 @@ body {
 
 }
 header {
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 }
 /*All css on the navigation bar*/
 nav a{
@@ -100,7 +100,7 @@ nav {
 }
 /*css on the h1 and header*/
 h1 {
-	font-size: 55px;
+	font-size: 4rem;
 	text-align: center;
 	line-height: 1.2;
 }
@@ -157,7 +157,7 @@ button {
 	display: flex;
 	justify-content: space-between;
     margin: 4% 0;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     padding-bottom: 5%;
 }
 
@@ -224,10 +224,13 @@ footer p{
 		border-top: 1px solid grey;
 	}
 	nav a {
+		font-size: 1rem;
 		border-bottom: 1px solid grey;
 		padding: 3% 0;
 		display: flex;
 		justify-content: center;
+		width: 125%;
+		margin-left: -10%;
 	}
 	.sec1-container {
 		display: flex;
