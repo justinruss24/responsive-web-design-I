@@ -87,9 +87,16 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 }
-.logo {
-	width: 20%;
+.reg-nav {
 	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	padding-right: 5%;
+}
+.logo {
+	width: 100%;
+	display: flex;
+	padding-left: 8%;
 }
 /*css on the h1 and header*/
 h1 {
@@ -186,10 +193,23 @@ footer p{
     #right-img {
         display: none;
     }
-    .logo {
-		display: none;
-
-    }
-
+    .nav-container {
+		display: flex;
+	}
+	nav {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.reg-nav {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 3%;
+	}
+	.logo {
+		margin-bottom: 4%;
+	}
 }
+
+/*Media queries for */
 
